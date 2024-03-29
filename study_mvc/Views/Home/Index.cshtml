@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model study_mvc.Models.Student
+<html>
+    <head>
+        <title>学生信息</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>姓名</td>
+                <td>@Model.name</td>
+            </tr>
+        <tr>
+            <td>年龄</td>
+            <td>@Model.age</td>
+        </tr>
+        <tr>
+            <td>姓别</td>
+            <td>@Model.sex</td>
+        </tr>
+        </table>
+    </body>
+</html>
