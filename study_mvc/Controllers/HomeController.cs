@@ -18,7 +18,7 @@ namespace study_mvc.Controllers
             Student student = new Student();
             student.age = 1;
             student.name = "Test";
-            student.sex = "6";
+            student.sex = "123";
             return View(student);
         }
 
